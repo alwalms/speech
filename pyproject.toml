@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "speech"
+version = "0.1.0"
+description = ""
+authors = ["Alex Walmsley <alex.walmsley@signal-ai.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+SpeechRecognition = "^3.10.0"
+PyAudio = "^0.2.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
